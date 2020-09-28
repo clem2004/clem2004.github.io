@@ -21,6 +21,8 @@
  
     "dynamicCells":
     [
-        hello
+        {
+            "hey"
+        }
     ]
 }
