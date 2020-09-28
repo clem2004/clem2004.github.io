@@ -1,1 +1,26 @@
-cells.json
+{
+    "staticCells":
+    [
+        {
+            "title":"Calendrier",
+            "image":"Calendrier",
+            "link":"https://collegemont-royal.qc.ca/contenuFichiers/files/Calendrier.pdf",
+            "subtitle":"Calendrier scolaire 2020-2021"
+        },{
+            "title":"Code de vie",
+            "image":"Codedevie",
+            "link":"https://indd.adobe.com/view/50742454-71ee-4da9-90c8-ff5e7879a2e7",
+            "subtitle":"Code de vie 2019-2020"
+        },{
+            "title":"Site du Collège",
+            "image":"lien",
+            "link":"https://collegemont-royal.qc.ca/",
+            "subtitle":"Site web officiel du Collège Mont-Royal"
+        }
+    ],
+ 
+    "dynamicCells":
+    [
+ 
+    ]
+}
