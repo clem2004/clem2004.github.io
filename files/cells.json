@@ -10,7 +10,7 @@
             "title":"Code de vie",
             "image":"Codedevie",
             "link":"https://clem2004.github.io/files/cdv2021.pdf",
-            "subtitle":"Code de vie 2019-2020"
+            "subtitle":"Code de vie 2020-2021"
         },{
             "title":"Cafétéria",
             "image":"fork",
@@ -26,6 +26,6 @@
  
     "dynamicCells":
     [
-        
+ 
     ]
 }
