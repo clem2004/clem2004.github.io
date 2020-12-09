@@ -26,6 +26,12 @@
  
     "dynamicCells":
     [
- 
+        {
+            "title":"Journal Étudiant",
+            "image":"🗞",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/Journal1.pdf",
+            "subtitle":"Journal Étudiant #1 2020-2021"
+        }
     ]
 }
