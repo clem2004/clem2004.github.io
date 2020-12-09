@@ -1,0 +1,12 @@
+{
+    "dynamicCells":
+    [
+        {
+            "title":"Édition 1",
+            "image":"📰",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/journal/Journal1.pdf",
+            "subtitle":""
+        }
+    ]
+}
