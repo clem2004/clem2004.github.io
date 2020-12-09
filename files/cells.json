@@ -26,12 +26,6 @@
  
     "dynamicCells":
     [
-        {
-            "title":"Journal Étudiant",
-            "image":"🗞",
-            "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/journalJSON.json",
-            "subtitle":"Consultez le journal et les suppléments numériques"
-        }
+        
     ]
 }
