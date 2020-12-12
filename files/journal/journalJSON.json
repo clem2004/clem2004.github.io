@@ -7,10 +7,11 @@
             "link":"https://clem2004.github.io/files/journal/Journal1.pdf",
             "subtitle":""
         },{
-            "title":"Entrevue avec M. Cormier",
-            "image":"📼",
-            "link":"https://youtu.be/Q-14OVEYhAw",
-            "subtitle":"Le jour du souvenir"
+            "title":"Contenu numérique",
+            "image":"📦",
+            "newPage":true;
+            "link":"https://clem2004.github.io/files/journal/extra/contenu.json",
+            "subtitle":""
         }
     ]
 }
