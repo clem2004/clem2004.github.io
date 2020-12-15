@@ -3,15 +3,15 @@
     [
         {
             "title":"Édition 1",
-            "image":"📰",
-            "link":"https://clem2004.github.io/files/journal/Journal1.pdf",
             "subtitle":"Première édition",
+            "image":"📰",
+            "link":"https://clem2004.github.io/files/journal/Journal1.pdf"
         },{
             "title":"Contenu numérique",
+            "subtitle":"",
             "image":"📦",
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/extra/contenu.json",
-            "subtitle":""
         }
     ]
 }
