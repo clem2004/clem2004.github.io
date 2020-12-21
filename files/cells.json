@@ -1,5 +1,5 @@
 {
-    "staticCells":
+    "cells":
     [
         {
             "title":"Calendrier",
@@ -21,12 +21,7 @@
             "subtitle":"Site web officiel du Collège Mont-Royal",
             "image":"lien",
             "link":"https://collegemont-royal.qc.ca/"
-        }
-    ],
- 
-    "dynamicCells":
-    [
-        {
+        },{
             "title":"Journal Étudiant",
             "subtitle":"Consultez le journal étudiant",
             "image":"🗞",
