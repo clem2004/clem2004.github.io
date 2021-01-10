@@ -1,5 +1,5 @@
 {
-    "cells"=
+    "cells":
     [
         {
             "title":"Calendrier",
@@ -28,7 +28,5 @@
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/journalJSON.json"
         }
-    ],
-    
-    
+    ]
 }
