@@ -1,6 +1,7 @@
 let str = get('https://clem2004.github.io/files/cells.json')
 let cells = JSON.parse(str).cells
 loadTableView();
+if (detectDarkMode()) { setDarkMode(); }
 
 function HTMLCell(title, subtitle, image, i) {
     if (isEmoji(image) != true) {
@@ -36,6 +37,15 @@ function loadTableView() {
             addClickEvent(i);
         }
     }
+}
+
+function detectDarkMode() {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+}
+
+function setDarkMode() {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
 }
 
 function get(yourUrl){
