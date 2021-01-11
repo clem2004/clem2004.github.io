@@ -4,7 +4,7 @@ loadTableView();
 
 function HTMLCell(title, subtitle, image, i) {
     if (isEmoji(image) != true) {
-        return '<cell id = ' + i + '><img src="https://clem2004.github.io/tree/master/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
+        return '<cell id = ' + i + '><img src="https://clem2004.github.io/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
     } else {
         return '<cell id = ' + i + '><emoji>' + image + '</emoji><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
     }
