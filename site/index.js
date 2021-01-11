@@ -1,9 +1,20 @@
-let str = get('https://clem2004.github.io/files/cells.json')
+let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
+let str = get(link)
 let cells = JSON.parse(str).cells
+
 loadTableView();
+
 if (detectDarkMode()) { setDarkMode(); }
 
-function HTMLCell(title, subtitle, image, i) {
+window.addEventListener('popstate', e => {
+    link = e.state ?? 'https://clem2004.github.io/files/cells.json'
+    str = get(link)
+    cells = JSON.parse(str).cells
+    loadTableView()
+    console.log("done")
+})
+
+function GenerateHTMLCell(title, subtitle, image, i) {
     if (isEmoji(image) != true) {
         return '<cell id = ' + i + '><img src="https://clem2004.github.io/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
     } else {
@@ -21,6 +32,7 @@ function addClickEvent(i) {
 function addNewPageEvent(i) {
     var element = document.getElementById(i); //grab the element
     element.onclick = function() { //asign a function
+        history.pushState(cells[i].link, null, "")
         str = get(cells[i].link)
         cells = JSON.parse(str).cells
         loadTableView();
@@ -30,7 +42,8 @@ function addNewPageEvent(i) {
 function loadTableView() {
     document.body.innerHTML = ""
     for (let i = 0; i < cells.length; i++) {
-        document.body.insertAdjacentHTML("beforeend", HTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i));
+        document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i));
+        document.body.insertAdjacentHTML("beforeend", "<line></line>")
         if (cells[i].newPage) {
             addNewPageEvent(i);
         } else {
