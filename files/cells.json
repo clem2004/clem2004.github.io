@@ -27,6 +27,11 @@
             "image":"🗞",
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/journalJSON.json"
-        }
+        },{
+            "title":"Test",
+            "subtitle":"Site okok",
+            "image":"Codedevie",
+            "link":"https://collegemont-royal.qc.ca/"
+        },
     ]
 }
