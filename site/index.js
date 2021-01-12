@@ -1,26 +1,16 @@
 let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
 let str = get(link)
 let cells = JSON.parse(str).cells
-
 loadTableView();
 
-if (detectDarkMode()) { setDarkMode(); }
+setDarkMode();
+
+// EVENTS
 
 window.addEventListener('popstate', e => {
-    link = e.state ?? 'https://clem2004.github.io/files/cells.json'
-    str = get(link)
-    cells = JSON.parse(str).cells
-    loadTableView()
+    parseCells(e.state)
     console.log("done")
 })
-
-function GenerateHTMLCell(title, subtitle, image, i) {
-    if (isEmoji(image) != true) {
-        return '<cell id = ' + i + '><img src="https://clem2004.github.io/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
-    } else {
-        return '<cell id = ' + i + '><emoji>' + image + '</emoji><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
-    }
-}
 
 function addClickEvent(i) {
     var element = document.getElementById(i); //grab the element
@@ -33,10 +23,27 @@ function addNewPageEvent(i) {
     var element = document.getElementById(i); //grab the element
     element.onclick = function() { //asign a function
         history.pushState(cells[i].link, null, "")
-        str = get(cells[i].link)
-        cells = JSON.parse(str).cells
-        loadTableView();
+        parseCells(cells[i].link)
     }
+}
+
+function addHoverEvent(i) {
+    var element = document.getElementById(i); //grab the element
+    element.onmouseover = function() { //asign a function
+        element.style.animation="mouseOver 0.2s forwards";
+    }
+    element.onmouseout = function() { //asign a function
+        element.style.animation="mouseOut 0.2s forwards";
+    }
+}
+
+// CELLS
+
+function parseCells(url) {
+    link = url ?? 'https://clem2004.github.io/files/cells.json'
+    str = get(link)
+    cells = JSON.parse(str).cells
+    loadTableView();
 }
 
 function loadTableView() {
@@ -44,6 +51,7 @@ function loadTableView() {
     for (let i = 0; i < cells.length; i++) {
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i));
         document.body.insertAdjacentHTML("beforeend", "<line></line>")
+        addHoverEvent(i);
         if (cells[i].newPage) {
             addNewPageEvent(i);
         } else {
@@ -52,14 +60,24 @@ function loadTableView() {
     }
 }
 
-function detectDarkMode() {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
+function GenerateHTMLCell(title, subtitle, image, i) {
+    if (isEmoji(image) != true) {
+        return '<cell id = ' + i + '><img src="https://clem2004.github.io/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
+    } else {
+        return '<cell id = ' + i + '><emoji>' + image + '</emoji><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
+    }
 }
 
+// UI
+
 function setDarkMode() {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+    }
 }
+
+// UTILITIES
 
 function get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
