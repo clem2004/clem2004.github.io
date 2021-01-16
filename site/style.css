@@ -6,30 +6,37 @@ body {
     padding-top: 15px;
 }
 
-line {
-    background-color: rgba(128, 128, 128, 0.5);
-    height: 0.5px;
-    display: block;
-    width: 98%;
-    margin-left: 2%;
-}
-
 cell {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    position: relative;
+
+    transition-duration: 0.3s;
+    
     height: 80px;
+    margin: 0px 10px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 20px;
 }
 
-@keyframes mouseOver {
-    to {background-color: rgba(122, 122, 122, 0.25);}
+.mouseOver {
+    background-color: rgba(160, 160, 160, 0.25);
+    transition: 0.2s;
+    height: 100px;
+    
 }
 
-@keyframes mouseOut {
-    from {background-color: rgba(117, 117, 117, 0.20);}
-    to {background-color: rgba(0, 0, 0, 0);}
+.mouseOut {
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.2s;
+    height: 80px;
+}
+
+.transitionLeft {
+    transform: translateX(-100%);
 }
 
 emoji {

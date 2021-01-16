@@ -1,6 +1,7 @@
 let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
 let str = get(link)
 let cells = JSON.parse(str).cells
+let slides = false;
 loadTableView();
 
 setDarkMode();
@@ -9,7 +10,6 @@ setDarkMode();
 
 window.addEventListener('popstate', e => {
     parseCells(e.state)
-    console.log("done")
 })
 
 function addClickEvent(i) {
@@ -20,20 +20,26 @@ function addClickEvent(i) {
 }
 
 function addNewPageEvent(i) {
-    var element = document.getElementById(i); //grab the element
-    element.onclick = function() { //asign a function
-        history.pushState(cells[i].link, null, "")
-        parseCells(cells[i].link)
+    var element = document.getElementById(i)
+    element.onclick = function() {
+        history.pushState(cells[i].link, cells[i].title);
+        slideLeft()
+        slides = true;
+        setTimeout(function() {
+            parseCells(cells[i].link)
+        }, 300)
     }
 }
 
 function addHoverEvent(i) {
     var element = document.getElementById(i); //grab the element
     element.onmouseover = function() { //asign a function
-        element.style.animation="mouseOver 0.2s forwards";
+        element.classList.remove("mouseOut", "mouseOver")
+        element.classList.add("mouseOver")
     }
     element.onmouseout = function() { //asign a function
-        element.style.animation="mouseOut 0.2s forwards";
+        element.classList.remove("mouseOut", "mouseOver")
+        element.classList.add("mouseOut")
     }
 }
 
@@ -50,7 +56,6 @@ function loadTableView() {
     document.body.innerHTML = ""
     for (let i = 0; i < cells.length; i++) {
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i));
-        document.body.insertAdjacentHTML("beforeend", "<line></line>")
         addHoverEvent(i);
         if (cells[i].newPage) {
             addNewPageEvent(i);
@@ -60,11 +65,19 @@ function loadTableView() {
     }
 }
 
-function GenerateHTMLCell(title, subtitle, image, i) {
+function slideLeft() {
+    var elements = document.getElementsByTagName("cell")
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove("transitionLeft");
+        elements[i].classList.add("transitionLeft");
+    }
+}
+
+function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     if (isEmoji(image) != true) {
-        return '<cell id = ' + i + '><img src="https://clem2004.github.io/site/images/' + image + '.png" height="80"/><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
+        return `<cell id = ${i} class=${cellClass}><img src="https://clem2004.github.io/site/images/${image}.png" height="80"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else {
-        return '<cell id = ' + i + '><emoji>' + image + '</emoji><description><cell-title>' + title + '</cell-title><cell-subtitle>' + subtitle + '</cell-subtitle></description></cell>'
+        return `<cell id = ${i} class=${cellClass}><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
 }
 
