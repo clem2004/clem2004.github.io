@@ -1,4 +1,4 @@
-let link = history.state ?? '/files/cells.json'
+let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
 let str = get(link)
 let cells = JSON.parse(str).cells
 let slides = false;
@@ -75,7 +75,7 @@ function slideLeft() {
 
 function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     if (isEmoji(image) != true) {
-        return `<cell id = ${i} class=${cellClass}><img src="/site/images/${image}.png" height="80"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+        return `<cell id = ${i} class=${cellClass}><img src="https://clem2004.github.io/site/images/${image}.png" height="80"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else {
         return `<cell id = ${i} class=${cellClass}><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
