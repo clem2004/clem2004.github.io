@@ -1,4 +1,4 @@
-let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
+let link = history.state ?? '/files/cells.json'
 let str = get(link)
 let cells = JSON.parse(str).cells
 let slides = false;
