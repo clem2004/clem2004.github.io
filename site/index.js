@@ -63,13 +63,25 @@ function loadTableView() {
             addClickEvent(i);
         }
     }
+    fadeIn();
 }
 
 function slideLeft() {
     var elements = document.getElementsByTagName("cell")
     for (let i = 0; i < elements.length; i++) {
-        elements[i].classList.remove("transitionLeft");
-        elements[i].classList.add("transitionLeft");
+        elements[i].classList.remove("transitionLeft", "mouseOver", "mouseOut");
+        elements[i].classList.add("transitionLeft", "mouseOut");
+    }
+}
+
+function fadeIn() {
+    if (slides) {
+        slides = false;
+        var elements = document.getElementsByTagName("cell")
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].classList.remove("fadeIn");
+            elements[i].classList.add("fadeIn");
+        }
     }
 }
 

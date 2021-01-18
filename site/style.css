@@ -18,24 +18,36 @@ cell {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
+
+    font-size: 17px;
 }
 
 .mouseOver {
-    transition: 0.2s;
+    transition: all 0.2s;
     background-color: rgba(160, 160, 160, 0.215);
     padding-left: 20px;
     height: 100px;
 }
 
 .mouseOut {
-    transition: 0.2s;
+    transition: all 0.2s;
     background-color: rgba(0, 0, 0, 0);
     padding-left: 10px;
     height: 80px;
 }
 
 .transitionLeft {
-    transform: translateX(-100%);
+    transition: all 0.3s;
+    transform: translateX(-20%);
+}
+
+.fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0%; left: 10%;}
+    100% {opacity: 100%; left: 0px;}
 }
 
 emoji {
