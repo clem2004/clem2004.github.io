@@ -39,6 +39,7 @@ cell {
 .transitionLeft {
     transition: all 0.3s;
     transform: translateX(-20%);
+    opacity: 0%;
 }
 
 .fadeIn {
