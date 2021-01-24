@@ -2,15 +2,15 @@
     "cells":
     [
         {
-            "title":"Entrevue avec M. Cormier",
-            "subtitle":"Le jour du souvenir",
-            "image":"🎬",
-            "link":"https://youtu.be/Q-14OVEYhAw"
-        },{
             "title":"Solution au problème de mathématiques",
             "subtitle":"2ème édition 2020",
             "image":"💡",
             "link":"https://clem2004.github.io/files/journal/extra/elias_3_edition_solution.pdf"
+        },{
+            "title":"Entrevue avec M. Cormier",
+            "subtitle":"Le jour du souvenir",
+            "image":"🎬",
+            "link":"https://youtu.be/Q-14OVEYhAw"
         }
     ]
 }
