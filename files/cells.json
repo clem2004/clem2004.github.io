@@ -10,8 +10,7 @@
             "title":"Code de vie",
             "subtitle":"Code de vie 2020-2021",
             "image":"Codedevie",
-            "link":"https://clem2004.github.io/files/cdv2021.pdf",
-            "UUID":"58b6dcca-85b4-4bfe-babeeee-4feb5eb52"
+            "link":"https://clem2004.github.io/files/cdv2021.pdf"
         },{
             "title":"Cafétéria",
             "subtitle":"Menu de la cafétéria 2020-2021",
@@ -27,8 +26,7 @@
             "subtitle":"Consultez le journal étudiant",
             "image":"🗞",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/journalJSON.json",
-            "UUID":"58b6dcca-85b4-4bfe-bae3-4ffb5eb54"
+            "link":"https://clem2004.github.io/files/journal/journalJSON.json"
         },{
             "title":"Bibliothèque",
             "subtitle":"",
