@@ -26,7 +26,8 @@
             "subtitle":"Consultez le journal étudiant",
             "image":"🗞",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/journalJSON.json"
+            "link":"https://clem2004.github.io/files/journal/journalJSON.json",
+            "UUID":"2e5105e8-b034-4341-b0dc-7d775701a0a8"
         },{
             "title":"Bibliothèque",
             "subtitle":"",
