@@ -13,7 +13,7 @@
         const source = new URLSearchParams(window.location.search).get('src');
         console.log(source)
         
-        document.body.innerHTML = '<iframe src=' + '"https://clem2004.github.io/site/?' + source + '"' + ' frameborder=0 style=position:absolute;top:0px;left:0px;right:0px;bottom:0px height=100% width=100%></iframe>'
+        document.body.innerHTML = '<iframe src=' + '"https://clem2004.github.io/site/?src=' + source + '"' + ' frameborder=0 style=position:absolute;top:0px;left:0px;right:0px;bottom:0px height=100% width=100%></iframe>'
 
         console.log('"https://clem2004.github.io/site/?' + source + '"')
     </script>
