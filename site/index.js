@@ -1,4 +1,4 @@
-let link = history.state ?? 'https://clem2004.github.io/files/cells.json'
+let link = getUrl()
 let str = get(link)
 let cells = JSON.parse(str).cells
 let slides = false;
@@ -46,7 +46,7 @@ function addHoverEvent(i) {
 // CELLS
 
 function parseCells(url) {
-    link = url ?? 'https://clem2004.github.io/files/cells.json'
+    link = getUrl()
     str = get(link)
     cells = JSON.parse(str).cells
     loadTableView();
@@ -103,6 +103,17 @@ function setDarkMode() {
 }
 
 // UTILITIES
+
+function getUrl() {
+    const src = new URLSearchParams(window.location.search).get('src');
+    if (history.state != null) {
+        return history.state;
+    } else if (src != null) {
+        return src;
+    } else {
+        return 'https://clem2004.github.io/files/cells.json';
+    }
+}
 
 function get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
