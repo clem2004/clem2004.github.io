@@ -34,12 +34,6 @@
             "image":"📚",
             "newPage":true,
             "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
-        },{
-            "title":"TEST ceciestuntreslongmotquivapassaffichercorrectement",
-            "subtitle":"",
-            "image":"🤖",
-            "newPage":false,
-            "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
         }
     ]
 }
