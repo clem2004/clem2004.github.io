@@ -11,7 +11,12 @@
 <body style="margin:0px;">
     <script>
         const source = new URLSearchParams(window.location.search).get('src');
-        document.body.innerHTML = '<iframe src=' + '"https://clem2004.github.io/site/?src=' + source + '"' + ' frameborder=0 style=position:absolute;top:0px;left:0px;right:0px;bottom:0px height=100% width=100%></iframe>'
+        if (source != null) {
+            document.body.innerHTML = '<iframe src=' + '"https://clem2004.github.io/site/?src=' + source + '"' + ' frameborder=0 style=position:absolute;top:0px;left:0px;right:0px;bottom:0px height=100% width=100%></iframe>'
+        } else {
+            document.body.innerHTML = '<iframe src=' + '"https://clem2004.github.io/site/" frameborder=0 style=position:absolute;top:0px;left:0px;right:0px;bottom:0px height=100% width=100%></iframe>'
+        }
+        
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) { document.body.style.backgroundColor = "black"; }
     </script>
 </body>
