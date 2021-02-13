@@ -1,0 +1,31 @@
+{
+    "cells":
+    [
+        {
+            "title":"Secondaire 1",
+            "image":"1️⃣",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/sec1.json"
+        },{
+            "title":"Secondaire 2",
+            "image":"2️⃣",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/sec2.json"
+        },{
+            "title":"Secondaire 3",
+            "image":"3️⃣",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/sec3.json"
+        },{
+            "title":"Secondaire 4",
+            "image":"4️⃣",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/sec4.json"
+        },{
+            "title":"Secondaire 5",
+            "image":"5️⃣",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/sec5.json"
+        }
+    ]
+}
