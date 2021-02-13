@@ -6,6 +6,12 @@
             "subtitle":"Suggestions de lecture et critiques littéraires.",
             "image":"📖",
             "link":"https://padlet.com/padlets/pvw6nnnncz94u07w"
+        },{
+            "title":"Personnages célèbres",
+            "subtitle":"Votez pour la personne célèbre qui représentera votre classe.",
+            "image":"👸🏻",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/personnages/niveaux.json"
         }
     ]
 }
