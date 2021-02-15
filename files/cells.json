@@ -34,6 +34,11 @@
             "image":"📚",
             "newPage":true,
             "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
+        },{
+            "title":"Test",
+            "image":"🧪",
+            "newPage":false,
+            "link":"https://forms.gle/KMKsEQovFZDkaHWL9"
         }
     ]
 }
