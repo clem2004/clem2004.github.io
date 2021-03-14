@@ -3,6 +3,11 @@
     "cells":
     [
         {
+            "title":"Édition 5 du Journal Étudiant",
+            "subtitle":"Disponible cette semaine...",
+            "image":"info",
+            "notification":true
+        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
