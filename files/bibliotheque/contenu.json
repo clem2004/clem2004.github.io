@@ -11,7 +11,7 @@
             "subtitle":"Consultez les résultats du sondage",
             "image":"👸🏻",
             "link":"https://clem2004.github.io/files/bibliotheque/resultats.pdf",
-            "notifications":true
+            "notification":true
         }
     ]
 }
