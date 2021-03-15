@@ -14,6 +14,12 @@
             "image":"Calendrier",
             "link":"https://clem2004.github.io/files/calendrier2021.pdf"
         },{
+            "title":"Message (test)",
+            "subtitle":"Ceci est un test. Le développeur de l'app tente de la mettre à jour...",
+            "image":"message",
+            "link":"",
+            "notification":true
+        },{
             "title":"Code de vie",
             "subtitle":"Code de vie 2020-2021",
             "image":"Codedevie",
