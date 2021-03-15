@@ -1,24 +1,12 @@
 {
-    "version":"1.5.1",
+    "version":"1.6",
     "cells":
     [
         {
-            "title":"Message (test)",
-            "subtitle":"Ceci est un test. Le développeur de l'app tente de la mettre à jour...",
-            "image":"message",
-            "link":"",
-            "notification":true
-        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
             "link":"https://clem2004.github.io/files/calendrier2021.pdf"
-        },{
-            "title":"Message (test)",
-            "subtitle":"Ceci est un test. Le développeur de l'app tente de la mettre à jour...",
-            "image":"message",
-            "link":"",
-            "notification":true
         },{
             "title":"Code de vie",
             "subtitle":"Code de vie 2020-2021",
