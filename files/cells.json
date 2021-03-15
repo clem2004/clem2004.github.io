@@ -3,8 +3,8 @@
     "cells":
     [
         {
-            "title":"Journal étudiant 5e édition",
-            "subtitle":"La 5e édition du journal étudiant est désormais disponible dans la section Journal Étudiant",
+            "title":"Message (test)",
+            "subtitle":"Ceci est un test. Le développeur de l'app tente de la mettre à jour...",
             "image":"message",
             "link":"https://clem2004.github.io/files/calendrier2021.pdf",
             "notification":true
