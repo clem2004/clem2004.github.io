@@ -8,9 +8,10 @@
             "link":"https://padlet.com/padlets/pvw6nnnncz94u07w"
         },{
             "title":"Résultats du sondage sur les personnages célèbres",
-            "subtitle":"Consultez les résultats du sondage",
+            "subtitle":"Groupe 10 : Rosa Parks\nGroupe 11 : Jules César\n",
             "image":"👸🏻",
-            "link":"https://clem2004.github.io/files/bibliotheque/resultats.pdf"
+            "link":"https://clem2004.github.io/files/bibliotheque/resultats.pdf",
+            "notification":true
         }
     ]
 }
