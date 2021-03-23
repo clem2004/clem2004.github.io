@@ -92,9 +92,9 @@ function fadeIn() {
 
 function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
-    title = title ?? ""
-    subtitle = subtitle ?? ""
-    image = image ?? "404"
+    title = title || ""
+    subtitle = subtitle || ""
+    image = image || "404"
 
     if (isEmoji(image) != true) {
         return `<cell id = ${i} class="${cellClass}"><img src="https://clem2004.github.io/site/images/${image}.png" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
