@@ -3,7 +3,8 @@
         {
             "title":"Application développée par Clément Gauthier",
             "subtitle":"Élève de 5e secondaire du collège.",
-            "image":"👨🏼‍🎓"
+            "image":"ℹ️",
+            "notification":true
         },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Cliquez ici !",
