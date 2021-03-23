@@ -1,0 +1,15 @@
+{
+    "cells": [
+        {
+            "title":"Application développée par Clément Gauthier",
+            "subtitle":"Élève de 5e secondaire du collège.",
+            "image":"👨🏼‍🎓"
+        },{
+            "title":"Allez voir mes autres applications !",
+            "subtitle":"Cliquez ici !",
+            "image":"📲",
+            "link":"https://apps.apple.com/developer/stephane-gauthier/id1489666753",
+            "openURL":true
+        }
+    ]
+}
