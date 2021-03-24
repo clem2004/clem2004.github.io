@@ -13,7 +13,7 @@
             "openURL":true
         },{
             "title":"Signaler un bug",
-            "image":"✉️",
+            "image":"📨",
             "link":"mailto:cguthier@collegemont-royal.qc.ca",
             "openURL":true
         }
