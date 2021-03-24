@@ -14,7 +14,7 @@
         },{
             "title":"Signaler un bug",
             "image":"📨",
-            "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Problème dans l'application CMR",
+            "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Problème%20dans%20l'application%20CMR",
             "openURL":true
         }
     ]
