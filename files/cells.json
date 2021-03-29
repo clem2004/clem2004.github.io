@@ -3,7 +3,7 @@
     "cells": [
         {
             "title":"Édition 5 du journal étudiant",
-            "subtitle":"Venez consulter notre nouvelle édition maintenant disponible portant sur le mois de l'alimentation",
+            "subtitle":"Venez consulter notre nouvelle édition portant sur le mois de l'alimentation.",
             "image":"message",
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/contenu.json",
