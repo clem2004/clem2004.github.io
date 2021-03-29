@@ -2,6 +2,14 @@
     "version":"1.6",
     "cells": [
         {
+            "title":"Édition 5 du journal étudiant",
+            "subtitle":"Venez consulter notre nouvelle édition portant sur le mois de l'alimentation.",
+            "image":"message",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/journal/contenu.json",
+            "UUID":"d093863e-9bd5-4861-9e49-30b0a6b840c5",
+            "notification":true
+        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
