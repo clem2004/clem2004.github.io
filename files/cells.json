@@ -2,6 +2,12 @@
     "version":"1.6",
     "cells": [
         {
+            "title":"Édition 5",
+            "subtitle":"Venez consulter notre nouvelle édition",
+            "image":"message",
+            "link":"https://clem2004.github.io/files/journal/contenu.json"
+        
+        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
