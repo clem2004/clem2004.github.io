@@ -2,12 +2,10 @@
     "version":"1.6",
     "cells": [
         {
-            "title":"Édition 5 du journal étudiant",
-            "subtitle":"Venez consulter notre nouvelle édition portant sur le mois de l'alimentation.",
-            "image":"message",
-            "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/contenu.json",
-            "UUID":"d093863e-9bd5-4861-9e49-30b0a6b840c5",
+            "title":"Édition spéciale du journal étudiant",
+            "subtitle":"Venez consulter notre édition spéciale pour le poisson d'avril.",
+            "image":"🐟",
+            "link":"https://clem2004.github.io/files/journal/Journal55.pdf",
             "notification":true
         },{
             "title":"Calendrier",
@@ -35,7 +33,7 @@
             "image":"🗞",
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/contenu.json",
-            "UUID":"d093863e-9bd5-4861-9e49-30b0a6b840c5"
+            "UUID":"ad63c8bc-ebbe-4305-a166-28f181c67217"
         },{
             "title":"Bibliothèque",
             "image":"📚",

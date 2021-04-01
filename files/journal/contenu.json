@@ -25,7 +25,7 @@
             "UUID":"3add1533-092c-4b69-91d2-b9ebab538683"
         },{
             "title":"Édition 4.5",
-            "subtitle":"Spéciale Relâche !",
+            "subtitle":"Spéciale relâche !",
             "image":"📰",
             "link":"https://clem2004.github.io/files/journal/Journal45.pdf",
             "UUID":"0ba077d9-1826-4f07-be2c-b9e5b064101f"
@@ -35,6 +35,12 @@
             "image":"📰",
             "link":"https://clem2004.github.io/files/journal/Journal5.pdf",
             "UUID":"6d5a12e9-a245-4969-be91-9f2271b25ef4"
+        },{
+            "title":"Édition 5.5",
+            "subtitle":"Spéciale poisson d'avril",
+            "image":"📰",
+            "link":"https://clem2004.github.io/files/journal/Journal55.pdf",
+            "UUID":"aa263ee3-6ec0-4823-ba04-986f2fe802ce"
         },{
             "title":"Contenu numérique",
             "subtitle":"",
