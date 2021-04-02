@@ -96,9 +96,14 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     subtitle = subtitle || ""
     image = image || "404"
 
-    if (isEmoji(image) != true) {
+    if (image.indexOf(".") > 0) {
+        // IMAGE IS LINK
+        return `<cell id = ${i} class="${cellClass}"><img src="${image}" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+    } else if (isEmoji(image) != true) {
+        // IMAGE IS IMAGE NAME
         return `<cell id = ${i} class="${cellClass}"><img src="https://clem2004.github.io/site/images/${image}.png" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else {
+        // IMAGE IS EMOJI
         return `<cell id = ${i} class="${cellClass}"><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
 }
