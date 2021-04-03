@@ -3,12 +3,12 @@
         {
             "title":"Application développée par Clément Gauthier",
             "subtitle":"Élève de 5e secondaire du collège.",
-            "image":"https://thumbs.dreamstime.com/b/error-404-17302608.jpg",
+            "image":"ℹ️",
             "notification":true
         },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Ouvrir l'App Store",
-            "image":"https://miro.medium.com/max/8982/1*V9-OPWpauGEi-JMp05RC_A.png",
+            "image":"appstore",
             "link":"https://apps.apple.com/developer/stephane-gauthier/id1489666753",
             "openURL":true
         },{
