@@ -39,11 +39,11 @@
             "link":"https://clem2004.github.io/files/journal/Journal55.pdf",
             "UUID":"aa263ee3-6ec0-4823-ba04-986f2fe802ce"
         },{
-            "title":"Contenu numérique",
+            "title":"Archives",
             "subtitle":"",
-            "image":"📦",
+            "image":"🗄",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/extra/contenu.json"
+            "link":"https://clem2004.github.io/files/journal/archives/contenu.json"
         }
     ]
 }
