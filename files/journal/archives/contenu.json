@@ -4,7 +4,8 @@
         {
             "title":"À venir...",
             "subtitle":"Les éditions du journal étudiant des années passées seront disponibles ici sous peu... À suivre...",
-            "image":"message"
+            "image":"message",
+            "notification":true
         }
     ]
 }
