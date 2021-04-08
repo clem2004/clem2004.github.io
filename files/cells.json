@@ -2,12 +2,6 @@
     "version":"1.6.3",
     "cells": [
         {
-            "title":"Édition spéciale du journal étudiant",
-            "subtitle":"Venez consulter notre édition spéciale pour le poisson d'avril.",
-            "image":"🐟",
-            "link":"https://clem2004.github.io/files/journal/Journal55.pdf",
-            "notification":true
-        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
@@ -24,12 +18,12 @@
             "link":"https://clem2004.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Bibliothèque",
-            "image":"📚",
+            "image":"bibliotheque",
             "newPage":true,
             "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
         },{
             "title":"Journal Étudiant",
-            "subtitle":"Consultez le journal étudiant",
+            "subtitle":"Édition spéciale poisson d'avril disponible !",
             "image":"🗞",
             "newPage":true,
             "link":"https://clem2004.github.io/files/journal/contenu.json",
