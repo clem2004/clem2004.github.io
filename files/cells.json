@@ -18,6 +18,7 @@
             "link":"https://clem2004.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Bibliothèque",
+            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
             "image":"bibliotheque",
             "newPage":true,
             "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
