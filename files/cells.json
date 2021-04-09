@@ -17,11 +17,10 @@
             "image":"fork",
             "link":"https://clem2004.github.io/files/ecole/menuCafeteria.pdf"
         },{
-            "title":"Bibliothèque",
-            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
-            "image":"bibliotheque",
-            "newPage":true,
-            "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
+            "title":"Site du Collège",
+            "subtitle":"Site web officiel du Collège Mont-Royal",
+            "image":"lien",
+            "link":"https://collegemont-royal.qc.ca/"
         },{
             "title":"Journal Étudiant",
             "subtitle":"Édition spéciale poisson d'avril disponible !",
@@ -30,10 +29,11 @@
             "link":"https://clem2004.github.io/files/journal/contenu.json",
             "UUID":"ad63c8bc-ebbe-4305-a166-28f181c67217"
         },{
-            "title":"Site du Collège",
-            "subtitle":"Site web officiel du Collège Mont-Royal",
-            "image":"lien",
-            "link":"https://collegemont-royal.qc.ca/"
+            "title":"Bibliothèque",
+            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
+            "image":"bibliotheque",
+            "newPage":true,
+            "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
         }
     ]
 }
