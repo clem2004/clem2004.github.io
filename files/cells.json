@@ -1,21 +1,26 @@
 {
-    "version":"1.6.3",
+    "version":"1.6.4",
     "cells": [
         {
+            "title":"Mise à jour requise.",
+            "subtitle":"Une mise à jour importante est disponible. Veuillez l'installer dans l'App Store.",
+            "image":"⚠️",
+            "link":""
+        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
-            "link":"https://clem2004.github.io/files/ecole/calendrier2021.pdf"
+            "link":"https://collegemont-royal.github.io/files/ecole/calendrier2021.pdf"
         },{
             "title":"Code de vie",
             "subtitle":"Code de vie 2020-2021",
             "image":"Codedevie",
-            "link":"https://clem2004.github.io/files/ecole/cdv2021.pdf"
+            "link":"https://collegemont-royal.github.io/files/ecole/cdv2021.pdf"
         },{
             "title":"Cafétéria",
             "subtitle":"Menu de la cafétéria 2020-2021",
             "image":"fork",
-            "link":"https://clem2004.github.io/files/ecole/menuCafeteria.pdf"
+            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Site du Collège",
             "subtitle":"Site web officiel du Collège Mont-Royal",
@@ -26,14 +31,14 @@
             "subtitle":"Édition spéciale poisson d'avril disponible !",
             "image":"🗞",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/contenu.json",
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
             "UUID":"ad63c8bc-ebbe-4305-a166-28f181c67217"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
             "image":"bibliotheque",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/bibliotheque/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
         }
     ]
 }
