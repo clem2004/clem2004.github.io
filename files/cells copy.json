@@ -1,7 +1,12 @@
 {
-    "version":"1.6.3",
+    "version":"1.6.4",
     "cells": [
         {
+            "title":"Mise à jour requise.",
+            "subtitle":"Une mise à jour importante est requise. Veuillez l'installer dans l'App Store avant le 31 mai 2021.",
+            "image":"⚠️",
+            "link":""
+        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire 2020-2021",
             "image":"Calendrier",
